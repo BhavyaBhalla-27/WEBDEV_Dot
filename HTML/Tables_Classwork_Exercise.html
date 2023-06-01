@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <colgroup>
+            <!-- In this 1st 2 columns will be of aqua color and next 1 column will be of greenyellow color -->
+            <col span = "2" style = "background-color: aqua;">
+            <col span = "1" style="background-color: greenyellow;">
+        </colgroup>
+        <tr>
+            <td rowspan = "2">State of health</td>
+            <td colspan = "2">Fasting Value</td>
+            <td>After eating</td>
+        </tr>
+        <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
