@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: aqua;
+            /* 2D Transforms */
+
+
+            /* Translate property */
+            /* transform: translate(100px,100px); */
+            /* Rotate property */
+            /* transform: rotate(45deg); */
+            /* Scale property */
+            /* transform: scale(1.5,2.5); */
+            /* margin: 500px; */
+            /* Skew property */
+            /* transform: skew(45deg); */
+        }
+        div{
+                height: 100px;
+                width:100px;
+                background-color: aqua;
+                border: 1px solid black;
+        }
+        .translated{
+            transform: perspective(10px) translateZ(-10px);
+        }
+        .scaled{
+            margin: 500px;
+            transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+        }
+        .rotated{
+            transform: rotateZ(45deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- 2D Transforms -->
+    <!-- <div class="box">ABCD</div> -->
+    <!-- 3D Tranforms -->
+    <div class="static">Static</div>
+    <div class="translated">Translated</div>
+    <div class="scaled">Scaled</div>
+    <div class="rotated">Rotated</div>
+</body>
+</html>
