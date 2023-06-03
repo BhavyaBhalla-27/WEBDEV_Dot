@@ -7,3 +7,5 @@
 7) How can we add border using shadows?
 8) What is spread radius in shadows?
 9) Position text in all corners and center of an image.
+10) Learn about matrix in 2D transforms.
+11) Why no need to turn on the perspective in case of rotateZ?
