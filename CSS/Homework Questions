@@ -9,3 +9,11 @@
 9) Position text in all corners and center of an image.
 10) Learn about matrix in 2D transforms.
 11) Why no need to turn on the perspective in case of rotateZ?
+12) Was there a need of giving z-index : -1; in container when we were trying to make sure that Adventure text is visible? (Parallax Effect Website)
+13) Was there a need of position : relative; in container? 
+14) Apply external font to Adventure text in Parallax Effect Website. (Poppins , sans serif)
+15) What is the difference between img and background-image tab ? (Maybe check the difference between the print of both of these)
+16) Study grid row , grid column shorthand notations.
+17) Explore some properties - justify content, align content, justify self, justify items, align items, align self, place items, place self
+18) Make : https://codehelp-product-card.netlify.app/
+
