@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 400px;
+            border: 2px solid green;
+            display:flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            /* x - direction alignment */
+            /* justify-content: flex-end; */
+            /* y - direction alignment */
+            /* align-items: flex-start; */
+
+            /* Handle space between flex-items rows */
+            /* align-items: stretch; */
+            /* align-content: flex-start; */
+        }
+        .box{
+            border: 2px solid brown;
+        }
+        #box1{
+            /* order: 2; */
+            /* flex-grow: 1; */
+            /* flex-shrink: 1; */
+            /* flex-basis: 50%; */
+            /* align-self: flex-end; */
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+</body>
+</html>
