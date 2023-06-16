@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>External Fonts</title>
+    <!-- Step 2 : Simply paste link tag code under head tag -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* Step 3 : Apply the font with the help of font-family property */
+      p {
+        font-family: "Oswald", sans-serif;
+      }
+      .conic {
+        height: 100px;
+        width: 100px;
+        background-image: conic-gradient(at 60% 45%, red, yellow, green);
+        border-radius: 50%;
+      }
+      .shadow {
+        height: 100px;
+        width: 100px;
+        box-shadow: 0 0 0 1px;
+      }
+      .box {
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+        position: relative;
+      }
+
+      .box1 {
+        position: absolute;
+        right: 0;
+      }
+
+      .box2 {
+        position: absolute;
+        left: 0;
+      }
+
+      .box3 {
+        position: absolute;
+        bottom: 0;
+      }
+
+      .box4 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+      .box5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Q2 : Add external fonts -->
+    <!-- Step 1 : Go to google fonts and select the desired font -->
+    <p>Hello, This is a tutorial for adding external fonts to our web page.</p>
+    <!-- Q3 Place 10 words content in 100x100 box. What happens? -->
+    <div style="border: 1px solid black; height: 100px; width: 100px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, provident.
+    </div>
+    <br />
+    <!-- Q5 Conic gradients -->
+    <div class="conic"></div>
+    <br />
+    <!--  Q6 Border via box-shadow -->
+    <div class="shadow">Hi</div>
+    <!-- Q7 Text at corners and center -->
+    <br />
+    <div class="box">
+      <div class="box1">a</div>
+      <div class="box2">a</div>
+      <div class="box3">a</div>
+      <div class="box4">a</div>
+      <div class="box5">a</div>
+  </div>
+  </body>
+</html>
