@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container h1{
+    margin: 20px 0;
+    text-align: center;
+    margin-bottom:20px ;
+    font-size: 3rem;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    /* 32 * 3 = 96% and 4% is left and hence is used for spacing */
+    width: 32%;
+    /* Text to be overlapped over the image and hence parent should be non-static */
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    box-shadow: 0 0 20px #333;
+}
+.card:hover{
+    transform: scale(1.03);
+    transition: 2s;
+    filter: drop-shadow(0 0 10px #333);
+    transition: 0.3s;
+}
+.card:hover img{
+    filter: grayscale(0%);
+}
+.card figcaption{
+    /* We need to overlap the text over the image */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    /* To apply hidden property */
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: linear-gradient(0deg , rgba(0,0,0,0.5) 0%,rgba(255,255,255,0) 100%);
+    transition: 0.3s;
+}
+.card:hover figcaption{
+    opacity: 1;
+    transform: scale(1.03);
+}
