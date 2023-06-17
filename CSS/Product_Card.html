@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #wrapper {
+        background-color: #f2ebe3;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        height: 420px;
+        width: 700px;
+        border-radius: 25px;
+        background: white;
+      }
+      .mug {
+        height: 420px;
+        border-radius: 25px 0px 0px 25px;
+      }
+      .text {
+        color: #6c7289;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 5px;
+        font-weight: 600;
+        position: relative;
+        top: -374px;
+        left: 33px;
+      }
+      .text1 {
+        font-size: 32px;
+        font-family: "Fraunces", serif;
+        position: relative;
+        top: -324px;
+        left: -135px;
+      }
+      .text2 {
+        position: relative;
+        top: -298px;
+        left: 350px;
+        height: 75px;
+        width: 315px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        color: hsl(228, 12%, 48%);
+        font-weight: 600;
+      }
+
+      .text3 {
+        position: relative;
+        top: -324px;
+        left: 350px;
+        font-size: 32px;
+        font-family: "Fraunces", serif;
+      }
+      .money{
+        position: relative;
+        top: -276px;
+        left: 350px;
+        font-weight: 700;
+        font-family: "Fraunces", serif;
+        color: #3C8067;
+        font-size: 32px;
+      }
+      .money1{
+        position: relative;
+        top: -277px;
+        left: 365px;
+        color: #6C7289;
+        font-size: 1rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+      }
+      .btn{
+        position: relative;
+        top: -212px;
+        left: 239px;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #3C8067;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        border-radius: 15px;
+      }
+      .cart{
+        position: relative;
+        top: 3px;
+        left: -8px ;
+      }
+      .btn:hover{
+        cursor: pointer;
+        background-color: #0b251c;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="card">
+        <img
+          src="https://codehelp-product-card.netlify.app/images/mug.jpg"
+          alt=""
+          class="mug"
+        />
+        <span class="text">COFFEE MUG</span>
+        <span class="text1">White Coffee</span>
+        <span class="text3">Mug</span>
+        <div class="text2">
+          Coffee Mugs are designed to express emotions. These are acclaimed for
+          their amazing designs & superior quality.
+        </div>
+        <span class="money">₹149</span>
+        <span class="money1"> <s>₹230</s></span>
+        <span class="btn"><img src="https://bit.ly/3Q6Adni
+            " class="cart">Add to Cart</span>
+      </div>
+    </div>
+  </body>
+</html>
