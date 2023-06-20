@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid template area</title>
+    <style>
+        .container{
+            height: 700px;
+            border: 1px solid red;
+            background-color: yellow;
+            /* To make our container behave as a grid */
+            display: grid;
+            grid-template-rows: 30px 150px 400px 30px;
+            grid-template-columns: 400px;
+            /* Name of the rows */
+            grid-template-areas: "hd" "side" "main" "ft";
+        }
+        .box{
+            border: 1px solid green;
+            background-color: aqua;
+            /* height: 100px;
+            width: 100px; */
+        }
+        #header{
+            grid-area: main;
+        }
+        #footer{
+            grid-area:ft;
+        }
+        #content{
+            grid-area: hd;
+        }
+        #sidebar{
+            grid-area: side;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+    </div>
+</body>
+</html>

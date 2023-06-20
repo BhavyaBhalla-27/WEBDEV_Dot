@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=x">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 700px;
+            border: 1px solid red;
+            background-color: yellow;
+            /* To make our container behave as a grid */
+            display: grid;
+            /* Adding gap */
+            grid-gap: 10px;
+            /* auto rows */
+            grid-auto-rows: minmax(100px,auto);
+            grid-template-columns: repeat(4,1fr);
+        }
+        .box{
+            border: 1px solid green;
+            background-color: aqua;
+            /* height: 100px;
+            width: 100px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+        <div class="box" id="header">Header</div>
+        <div class="box" id="sidebar">Sidebar</div>
+        <div class="box" id="content">Content</div>
+        <div class="box" id="footer">Footer</div>
+        
+    </div>
+</body>
+</html>
