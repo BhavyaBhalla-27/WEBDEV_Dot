@@ -2,3 +2,6 @@
 2) Java vs Javascript.
 3) Redeclaration of variable via var keyword is possible or not?
 4) Why was there a strike on variable name?
+5) Do combining and slicing on objects.
+6) Try sorting on objects.
+7) Sort the numbers using callback function such that string nature is ignored.
