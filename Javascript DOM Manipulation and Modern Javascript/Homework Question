@@ -1,0 +1,4 @@
+1) Study outerHTML (Rarely used)
+2) Study remove method to remove the child element as it does not require parent element to be known already.
+3) Explore dispatchEvent
+4) How to enable event listener in target phase?
