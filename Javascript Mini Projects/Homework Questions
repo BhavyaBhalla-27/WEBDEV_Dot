@@ -1,0 +1,7 @@
+1) Password Generator
+  --> Apply box shadow to div of strength showing color.
+2) Weather App
+  --> code catch block of fetchUserWeatherInfo
+  --> Difference between JSON String and JSON Object. ALso understand difference between res.json() and JSON.parse().
+  --> Show an alert when no geolocation service supported.
+  --> Implement catch block of fetchSearchWeatherInfo.
