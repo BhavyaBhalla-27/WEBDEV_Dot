@@ -1,3 +1,4 @@
 1) Explore about props.className.
 2) Why const is written in const [title,setTitle] = useState(props.title);
 3) setTitle('popcorn') is immediate or take some time i.e. scheduled?
+4) Update window size on UI after dragging.
