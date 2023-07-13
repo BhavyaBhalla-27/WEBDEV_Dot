@@ -3,3 +3,4 @@
 3) setTitle('popcorn') is immediate or take some time i.e. scheduled?
 4) Update window size on UI after dragging.
 5) Study documentation of forms. Explore fieldset and legend tag in forms in react.
+6) Style form app : https://codehelp-form-demo.netlify.app/
