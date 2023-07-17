@@ -1,3 +1,4 @@
 1) What is idempotent? Out of 4 requests of HTTP, which are idempotent?
 2) What is process.exit(1) in Backend Class 2 in config folder.
 3) What is cookie parser? Why we need cookie parser?
+4) Explore verify,compare and sign functions used in auth app.
