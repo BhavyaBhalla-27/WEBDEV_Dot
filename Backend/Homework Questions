@@ -6,3 +6,4 @@
 6) Study about cookie hijacking and token hijacking.
 7) What is difference between Relational and Non relational DB? Out of these 2, MongoDB comes under?
 8) Why name of the image changed when we uploaded on cloudinary?
+9) Add upper limit of 5MB as validation in videoupload of FileUpload Project.
