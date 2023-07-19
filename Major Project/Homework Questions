@@ -1,0 +1,2 @@
+1) Find a package which generates unique OTP always. 
+2) Find meaning of OTP.find({email}).sort({createdAt:-1}).limit(1);
