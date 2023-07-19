@@ -3,3 +3,8 @@
 3) Try changePassword in Auth.js
 4) Replace tag by category (UI Got Updated).
 5) In Section controller, how can we populate both section as well as subsection in updatedCourseDetails in createSection method.
+6) In SubSection controller, add populate in updatedSection while creating subsection.
+7) Code for updateSubsection and deleteSubsection in subSection controller.
+8) How to schedule a request? -> Like deleting an account takes 5 days.
+9) What is crone job?
+10) Unenroll user from all course when deleting account in Profile controller.
