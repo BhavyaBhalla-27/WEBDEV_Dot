@@ -8,3 +8,6 @@
 8) How to schedule a request? -> Like deleting an account takes 5 days.
 9) What is crone job?
 10) Unenroll user from all course when deleting account in Profile controller.
+11) Study about $elemMatch and $eq operators. Also explore $ne operator.
+12) Explore aggregate method of mongoose
+13) Write getTopSelling courses inside categoryPageDetails handler function of Category controller.
