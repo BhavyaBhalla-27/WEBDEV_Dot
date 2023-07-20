@@ -1,3 +1,5 @@
+------------------------------------------- BACKEND ---------------------------------------------------------------------------------
+
 1) Find a package which generates unique OTP always. 
 2) Find meaning of OTP.find({email}).sort({createdAt:-1}).limit(1);
 3) Try changePassword in Auth.js
@@ -11,3 +13,12 @@
 11) Study about $elemMatch and $eq operators. Also explore $ne operator.
 12) Explore aggregate method of mongoose
 13) Write getTopSelling courses inside categoryPageDetails handler function of Category controller.
+
+
+------------------------------------------- FRONTEND --------------------------------------------------------------------------------
+1) Apply shadow to button.
+2) Apply gradient to coding skills in home page.
+3) Apply shadows to learn more button and book a demo button. Work on its text.
+4) Add blue gradient to video.
+5) Apply gradient in the background of typing text
+6) Code footer section of home page
