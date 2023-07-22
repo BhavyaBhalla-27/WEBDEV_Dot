@@ -27,3 +27,4 @@
 9) Code signup and login page. (Already done in project when learning react)
 10) Code profile drop down when logged in.
 11) Style forgotpassword,updatepassword,verifyemail page.
+12) Add onClick property to sideBarLinks (<NavLink>
